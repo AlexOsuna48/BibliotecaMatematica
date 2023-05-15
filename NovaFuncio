@@ -1,0 +1,7 @@
+public static double mitjana(ArrayList<Double> llista) {
+  double suma = 0.0;
+  for (double valor : llista) {
+    suma += valor;
+  }
+  return suma / llista.size();
+}
